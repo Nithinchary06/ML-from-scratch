@@ -1,7 +1,7 @@
 class Matrix:
   def __init__(self,data):
     if not data or not isinstance(data,list):
-      raise TypeError("Matrix must be an non-empty list")
+      raise TypeError("Matrix must be an non-empty list ajnjsbi")
     self.data=data
     self.rows=len(data)
     self.cols=len(data[0])
